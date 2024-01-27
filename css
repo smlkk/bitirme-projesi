@@ -1,0 +1,76 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+}
+
+.etkinlik-listesi {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #c8e6c9; /* Ana renk */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header, main, footer {
+  padding: 20px;
+}
+
+header h1 {
+  color: #004d00; /* Başlık rengi */
+}
+
+.etkinlik-ekle, .etkinlikler {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #7cb342; /* Input çerçeve rengi */
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50; /* Buton arkaplan rengi */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #388e3c; /* Buton hover rengi */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.etkinlik-item {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #dcedc8; /* Etkinlik arka plan rengi */
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #4caf50; /* Footer arka plan rengi */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
